@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Dipesh">
+        <meta name="description" content="This page contains what i learn...">
+        <link rel="icon" href="html.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+
+        <title>My first webpage</title>
+    </head>
+    <body>
+        <header>
+        <h1>TIMES-NOW-INDIA</h1>
+        <nav>
+            <a href="#HOTNEWS">🛑!! HOT NEWS !!🛑</a>
+            <br>
+            <a href="#CONTACT">contact me</a>
+        </nav>
+        <p>News of DEC 16,2025</p>
+        </header>
+        <hr>
+        <main>
+        <h2>CINEMA-news</h2>
+        <p>nothing happend</p>
+        <h3>KOLLYWOOD-news</h3>
+        <p>vazhthukkal..vazhthukkal</p>
+        <hr>
+        <article id="sports News">
+        <h2>SPORTS-news</h2>
+        <section id="HOTNEWS">
+        <h3>FOOTBALL</h3>
+        <p>News</p>
+        <p>
+        <ol>
+        <li>MESSI arrives to India..</li>
+        <li>Sunil Chettri visits him..</li>
+        <br><li>Politicians visits him..for the <abbr title="Multi-Disciplinary project">MDP project</abbr></li>
+        
+        </ol>
+        </section>
+        <section id="Chess news">
+        </p>
+        <h3>CHESS</h3>
+        <figure>
+        <img src="/06_lesson/gukesh.png" alt="Gukesh title win" width="550" loading="lazy">
+        <figcaption>Guki won
+            <br><code>&lt;h1&gt; !!GUKESH!! &lt;/h1&gt;</code>
+        </figcaption>
+        </figure>
+        <ul>
+        <li>Gukesh becomes the <em>youngest</em> <strong>World Champion</strong> in history!!</li>
+        <li>Ding lost badly</li>
+        
+            <aside>
+                <details>
+                    <summary>
+                        Do u know the <mark>score card</mark> result
+                    </summary>
+                    <p>
+                        Gukesh <strong>13</strong>- Ding <strong>12</strong>
+                    </p>
+                </details>
+            </aside>
+        </li>
+        </ul>
+        <p>This final happend on <time datetime="08:00">8am </time> in the morning at:</p>
+        <address>
+            &nbsp;&nbsp;&nbsp;&nbsp;25,kuruku sandhu <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;sentoza island<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;singapore-420420
+        </address>
+        <!--This is how u comment in HTML-->
+        <a href="https://www.chess.com/home">CHESS</a>
+
+        <dl>
+            <dt>Caruana</dt>
+            <dd>congratulates Gukesh</dd>
+            <dt>magnus</dt>
+            <dd>no comments, it was boring!!</dd>
+        </dl>
+        <table>
+            <thead>
+                <th>&nbsp;</th>
+                <th>TIME</th>
+                <th>EVENT</th>               
+            </thead>
+            
+            <caption>Playing shedule</caption>
+            
+            <tr>
+                <td rowspan="2">morning</td>
+                <td>
+                    <time datetime="08.00">08am</time> - <time datetime="11.00">11am</time>
+                </td>
+                <td>GAME-1</td>
+            </tr>
+            <tr>
+                
+                <td>
+                    <time datetime="11.00">11am</time> - <time datetime="13.00">01pm</time>
+                </td>
+                <td>break-1</td>
+            </tr>
+            <tr>
+                <td>afternoon</td>
+                <td>
+                    <time datetime="13.00">01pm</time> - <time datetime="16.00">04pm</time>
+                </td>
+                <td>GAME-2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">evening</td>
+                <td rowspan="2">ALL OTHER TIME</td>
+                <td>prepare next game</td>
+                
+            </tr>
+            <tr>
+                
+                
+                <td>sleep</td>
+            </tr>
+            
+        </table>
+        </section>
+        </article>
+        <article id="#CONTACT">
+            <h2>Gukesh visits his fans</h2>
+            <p>please  provide ur info to meet him!!</p>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>personal info</legend>
+                    <p>
+                        <label for="FirstName"> first name:</label>
+                        <input type="text" name="FirstName" id="FirstName" placeholder="Dipesh" autocomplete="on" required="true" autofocus>
+                    </p>
+                    <p>
+                        <label for="password">password:</label>
+                        <input type="password" name="password" id="password" placeholder="your secret">
+                    </p>
+                    <p>
+                        <label for="Phone">ph no:</label>
+                        <input type="tel" name="phno." id="Phone" placeholder="8050480504" pattern="[1-9][0-9]{8}" required>
+                    </p>
+                    <p>
+                        <label for="round">Ur fav round:</label>
+                        <input type="number" name="round" id="round" min="1" max="25" step="1" value="1">
+                    </p>
+                    <p>
+                        <label for="coffee">fav coffee:</label>
+                        <select name="coffee" id="coffee" multiple size="3">
+                            <optgroup label="coffees:">
+                                <option value="reg. coffee">regular coffee</option>
+                                <option value="iced cofeee">iced coffee</option>
+                            </optgroup>
+                            <optgroup label="expresso">
+                                <option value="cappuccino">cappuccino</option>
+                                <option value="latte">latte</option>
+                                <option value="cold shake">cold shake</option>
+                            </optgroup>
+                            <optgroup label="OTHER:">
+                                <option value="Tea">Tea</option>
+                                <option value="milk">milk</option>
+                            </optgroup>
+                            </select>
+                    </p>
+                </fieldset>
+                            <!-- <p>HERE once U TYPE IT FILLS AUTOMATICALLY
+                    <label for="coffee">Favorite Coffee:</label>
+                    <input type="text" name="coffee" id="coffee" list="coffee-list">
+                    <datalist id="coffee-list">
+                        <option value="coffee">
+                        <option value="latte">
+                        <option value="espresso">
+                        <option value="cortado">
+                        <option value="americano">
+                        <option value="other">
+                    </datalist>
+                </p> -->           
+                <p>
+                    <fieldset>
+                        <legend>fav food?</legend>
+                        <p>
+                            <input type="radio" name="food" id="tacos">
+                            <label for="tacos">tacos</label>
+                            <br>
+                            <input type="radio" name="food" id="pizza">
+                            <label for="pizza">pizza</label>
+                            <br>
+                            <input type="radio" name="food" id="dosa">
+                            <label for="dosa">dosa</label>                 
+                        </p>
+                    </fieldset>
+                </p>    
+                <fieldset>
+                    <legend>do u like Pets?</legend>
+                    <input type="checkbox" name="pet" id="dog">
+                    <label for="dog">dog</label>
+                    <br>
+                    <input type="checkbox" name="pet" id="cat">
+                    <label for="cat">cat</label>
+                    <br>
+                    <input type="checkbox" name="pet" id="snake">
+                    <label for="snake">snake</label>
+                    <br>
+                </fieldset>       
+                <fieldset>
+                    <legend>Send me a note..</legend>
+                    <label for="message">your message</label>
+                    <br>
+                    <textarea name="message" id=""message cols="30" rows="10" placeholder="typehere"></textarea>
+                </fieldset>
+            <button type="reset">reset</button>
+            <button type="submit">submit(get method)</button>
+            <button type="submit" formaction="https://httpbin.org/post" formmethod="post" >post</button>
+            </form>
+
+        </article>
+        </main>
+        <hr>
+        <hr>
+        <footer>
+        &lt;&nbsp;&lt;&nbsp;&copy;&nbsp;<a href="about.html">THAANESH </a>&gt;&nbsp;&gt;&nbsp;
+        <a href="#">BAck to top</a>
+        </footer>
+    </body>
+</html>
